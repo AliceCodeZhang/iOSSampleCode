@@ -43,7 +43,7 @@ class CalcUITests: XCTestCase {
         
         // Check whether the display textfield shows 8.
         if let textFieldValue = app.textFields["display"].value as? String {
-            XCTAssertTrue(textFieldValue == "8", "Part 1 failed.")
+            XCTAssertTrue(textFieldValue == "10", "Part 1 failed.")
         }
         
         app.buttons["+"].tap()
